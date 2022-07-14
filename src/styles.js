@@ -7,7 +7,9 @@ export const Container = styled.div`
   margin: 50px;
 `;
 
-export const H1 = styled.h1``;
+export const H1 = styled.h1`
+  font-size: 60px;
+`;
 
 export const ContainerItems = styled.div``;
 
@@ -34,16 +36,26 @@ export const Button = styled.button`
 `;
 
 export const About = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 
-    p {
-        padding-top: 10px;
-    }
+  h1 {
+    font-size: 45px;
+  }
 
-    img {
-        padding-top: 20px;
-    }
+  p {
+    width: 800px;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  img {
+    width: 800px;
+    height: min-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 `;
