@@ -9,27 +9,34 @@ import { Container, H1, ContainerItems, Select, About } from "./styles";
 function App() {
   const [dogs, setDogs] = useState([]);
 
-  async function listDogs() {
+  async function listDog() {
     const { data: consumedApi } = await axios.get(
       "https://api.thedogapi.com/v1/breeds"
     );
-
-    const randomDog = Math.floor(Math.random() * consumedApi.length);
-    const dogData = consumedApi[randomDog];
-
-    console.log(dogData);
-
-    setDogs([
-      {
-        image: dogData.image.url,
-        name: dogData.name,
-        temperament: dogData.temperament,
-        kilograms: dogData.weight.imperial,
-        height: dogData.height.imperial,
-        life: dogData.life_span,
-      },
-    ]);
+    console.log(consumedApi);
   }
+
+  // async function listDogs() {
+  //   const { data: consumedApi } = await axios.get(
+  //     "https://api.thedogapi.com/v1/breeds"
+  //   );
+
+  //   const randomDog = Math.floor(Math.random() * consumedApi.length);
+  //   const dogData = consumedApi[randomDog];
+
+  //   console.log(dogData);
+
+  //   setDogs([
+  //     {
+  //       image: dogData.image.url,
+  //       name: dogData.name,
+  //       temperament: dogData.temperament,
+  //       kilograms: dogData.weight.imperial,
+  //       height: dogData.height.imperial,
+  //       life: dogData.life_span,
+  //     },
+  //   ]);
+  // }
 
   return (
     <Container>
