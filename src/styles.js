@@ -13,9 +13,9 @@ export const H1 = styled.h1`
 
 export const ContainerItems = styled.div``;
 
-export const Button = styled.button`
-  width: 150px;
-  height: 50px;
+export const Select = styled.select`
+  width: 400px;
+  height: 60px;
   margin-top: 30px;
   border: none;
   outline: none;

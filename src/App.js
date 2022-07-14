@@ -4,7 +4,7 @@ import { FaRulerVertical, FaHeart, FaStopwatch20 } from "react-icons/fa";
 
 import axios from "axios";
 
-import { Container, H1, ContainerItems, Button, About } from "./styles";
+import { Container, H1, ContainerItems, Select, About } from "./styles";
 
 function App() {
   const [dogs, setDogs] = useState([]);
@@ -34,7 +34,9 @@ function App() {
   return (
     <Container>
       <H1>Qual é o Dog ?</H1>
-      <Button onClick={listDogs}>Teste</Button>
+      <Select>
+        <option></option>
+      </Select>
 
       <ContainerItems>
         <ul>
