@@ -25,6 +25,8 @@ export const Select = styled.select`
   font-weight: 500;
   background-color: #964b00;
   color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
 
   &:hover {
     opacity: 0.8;
@@ -33,6 +35,11 @@ export const Select = styled.select`
   &:active {
     opacity: 0.6;
   }
+`;
+
+export const Option = styled.option`
+
+  color: #fff;
 `;
 
 export const About = styled.div`
