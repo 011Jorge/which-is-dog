@@ -4,7 +4,7 @@ import { FaRulerVertical, FaHeart, FaStopwatch20 } from "react-icons/fa";
 
 import axios from "axios";
 
-import { Container, H1, ContainerItems, Button, About } from "./styles";
+import { Container, H1, ContainerItems, Button, About, Nav } from "./styles";
 
 function App() {
   const [dogs, setDogs] = useState([]);
@@ -33,8 +33,10 @@ function App() {
 
   return (
     <Container>
-      <H1>Qual é o Dog ?</H1>
-      <Button onClick={listDogs}>Teste</Button>
+      <Nav>
+        <H1>What is Dog?</H1>
+      </Nav>
+      <Button onClick={listDogs}>Dog</Button>
 
       <ContainerItems>
         <ul>
@@ -46,7 +48,7 @@ function App() {
                 <p>
                   <i>{dog.temperament}</i>
                 </p>
-                <p>
+                <p className="dogKilograms">
                   <FaStopwatch20 />
                   <b> {dog.kilograms} kgs</b>
                 </p>
