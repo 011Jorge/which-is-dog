@@ -35,3 +35,21 @@ Para usar o projeto, siga estas etapas:
 ```
 yarn start ou npm start
 ```
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/011Jorge">
+        <img src="https://avatars.githubusercontent.com/u/81838137?v=4 width="100px;" alt="image-jorge-github""/><br>
+        <sub>
+          <b>011Jorge</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
