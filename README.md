@@ -33,11 +33,18 @@ git clone https://github.com/011Jorge/which-is-dog.git
 
 ## ☕ Usando
 
-Para usar o projeto, siga estas etapas:
-
+Para usar o projeto, cole o seguinte comando no seu terminal:
 ```
 yarn start ou npm start
 ```
+## 🔍 Se precisar
+
+Caso haja algum problema cole o seguinte comando no seu terminal para baixar algum pacote necessário: 
+```
+yarn ou npm
+```
+
+
 
 ## 🤝 Colaboradores
 
