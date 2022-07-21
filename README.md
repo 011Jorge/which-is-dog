@@ -13,6 +13,9 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Renderizar novos dados a cada click.
 - [x] Estilação.
 
+### ⚛ Api
+> Utilizamos a Api The Dog Api para ter todos esses dados e caso tenha interesse em ver a documentação é só <a href="https://docs.thedogapi.com/">clicar aqui</a>.
+
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
@@ -44,7 +47,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="https://github.com/011Jorge">
-        <img src="https://avatars.githubusercontent.com/u/81838137?v=4 width="100px;" alt="image-jorge-github""/><br>
+        <img src="https://avatars.githubusercontent.com/u/81838137?v=4 width="50px;" alt="image-jorge-github""/><br>
         <sub>
           <b>011Jorge</b>
         </sub>
