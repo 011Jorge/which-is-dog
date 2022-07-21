@@ -54,7 +54,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="https://github.com/011Jorge">
-        <img src="https://avatars.githubusercontent.com/u/81838137?v=4 width="50px;" alt="image-jorge-github""/><br>
+        <img src="https://avatars.githubusercontent.com/u/81838137?v=4" width="100px;" alt="image-jorge-github""/><br>
         <sub>
           <b>011Jorge</b>
         </sub>
