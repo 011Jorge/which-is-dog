@@ -12,8 +12,10 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Obter dados na tela.
 - [x] Renderizar novos dados a cada click.
 - [x] Estilização.
+- [ ] Deploy da aplicação.
+- [ ] Concluir o Readme.
 
-### ⚛ Api
+### ⚛ API
 > Utilizamos a Api The Dog Api para ter todos esses dados e caso tenha interesse em ver a documentação é só <a href="https://docs.thedogapi.com/">clicar aqui</a>.
 
 ## 💻 Pré-requisitos
