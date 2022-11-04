@@ -1,0 +1,47 @@
+.border {
+  border: 1px solid red;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container-home {
+  width: 100%;
+  height: 100vh;
+}
+
+.container-nav {
+  color: $white-normal;
+  background-color: $purple-dark;
+
+  img {
+    width: 80px;
+  }
+
+  input {
+    width: 500px;
+    height: 40px;
+
+    border: none;
+    border-radius: 4px;
+
+    outline: none;
+  }
+}
+
+.nav-list-link {
+  list-style: none;
+}
+
+.nav-link {
+  list-style: none;
+  text-decoration: none;
+
+  color: $white-dark;
+}
