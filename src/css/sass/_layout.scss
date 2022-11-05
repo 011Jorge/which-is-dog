@@ -11,6 +11,12 @@
   align-items: center;
 }
 
+@mixin responsive-computer {
+  @media screen and (max-width: 1500px) {
+    @content;
+  }
+}
+
 .container-home {
   width: 100%;
   height: 100vh;
@@ -40,6 +46,11 @@
     }
     &:active {
       opacity: 0.6;
+    }
+
+    @include responsive-computer() {
+      width: 30px;
+      height: 40px;
     }
   }
 }

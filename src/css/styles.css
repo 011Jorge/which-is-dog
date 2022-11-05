@@ -41,6 +41,12 @@
 .container-nav input:active {
   opacity: 0.6;
 }
+@media screen and (max-width: 1500px) {
+  .container-nav input {
+    width: 30px;
+    height: 40px;
+  }
+}
 
 .nav-list-link {
   list-style: none;
