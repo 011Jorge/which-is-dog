@@ -103,6 +103,10 @@
     font-weight: 600;
 
     color: $orange-normal;
+
+    @include responsive-computer() {
+      font-size: 60px;
+    }
   }
 
   h2 {
@@ -110,6 +114,10 @@
     font-weight: 500;
 
     color: $orange-normal;
+
+    @include responsive-computer() {
+      font-size: 37px;
+    }
   }
 
   h3 {
