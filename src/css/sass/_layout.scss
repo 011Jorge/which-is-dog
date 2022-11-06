@@ -153,12 +153,21 @@
       opacity: 0.8;
     }
   }
-}
 
-.container-dog-home {
-  width: 520.46;
-  height: 543.65;
-  background: $orange-normal;
+  .icon-arrow {
+    color: $white-dark;
+
+    animation: iconArrow 2s infinite alternate ease-in-out;
+
+    @keyframes iconArrow {
+      0% {
+        transform: translateX(30px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  }
 }
 
 .img-dog {

@@ -119,11 +119,26 @@
 .container-info-home button:hover {
   opacity: 0.8;
 }
-
-.container-dog-home {
-  width: 520.46;
-  height: 543.65;
-  background: #b85b2d;
+.container-info-home .icon-arrow {
+  color: #edeff0;
+  -webkit-animation: iconArrow 2s infinite alternate ease-in-out;
+          animation: iconArrow 2s infinite alternate ease-in-out;
+}
+@-webkit-keyframes iconArrow {
+  0% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes iconArrow {
+  0% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .img-dog {

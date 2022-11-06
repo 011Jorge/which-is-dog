@@ -21,7 +21,7 @@ function Home() {
           </h3>
           <a href="#">
             <button className="pl-7 mt-4 flex">
-              Descobrir dogs <FaLongArrowAltRight className="ml-2" />
+              Descobrir dogs <FaLongArrowAltRight className="icon-arrow ml-1" />
             </button>
           </a>
         </div>
