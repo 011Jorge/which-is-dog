@@ -163,4 +163,8 @@
 
 .img-dog {
   width: 900px;
+
+  @include responsive-computer() {
+    width: 550px;
+  }
 }

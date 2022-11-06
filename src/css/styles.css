@@ -129,6 +129,11 @@
 .img-dog {
   width: 900px;
 }
+@media screen and (max-width: 1500px) {
+  .img-dog {
+    width: 550px;
+  }
+}
 
 .s-0 {
   margin: 0;
