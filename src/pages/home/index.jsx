@@ -2,13 +2,12 @@ import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 import Navbar from "../../components/navbar";
-import RandomDog from "../../components/randomDog";
 import arrowSvg from "../../svg/arrow.svg";
 import dogSvg from "../../svg/dog.svg";
 
 function Home() {
   return (
-    <div className="container-home border">
+    <div className="container-home">
       <Navbar />
       <div className="container-about-home space-between flex">
         <div className="container-info-home m-9">
@@ -28,7 +27,6 @@ function Home() {
         </div>
         <img src={dogSvg} className="img-dog" alt="img-dog" />
       </div>
-      <RandomDog />
     </div>
   );
 }
