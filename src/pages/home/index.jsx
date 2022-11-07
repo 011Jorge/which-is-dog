@@ -2,6 +2,7 @@ import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 import Navbar from "../../components/navbar";
+import RandomDog from "../../components/randomDog";
 import arrowSvg from "../../svg/arrow.svg";
 import dogSvg from "../../svg/dog.svg";
 
@@ -27,6 +28,7 @@ function Home() {
         </div>
         <img src={dogSvg} className="img-dog" alt="img-dog" />
       </div>
+      <RandomDog />
     </div>
   );
 }
