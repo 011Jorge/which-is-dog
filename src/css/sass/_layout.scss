@@ -177,3 +177,75 @@
     width: 550px;
   }
 }
+
+.container-randomDog {
+  background-color: $orange-normal;
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    color: $white-dark;
+  }
+}
+
+.container-dogData {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-imageDog {
+  width: 600px;
+  height: 700px;
+
+  background-color: $white-dark;
+
+  border-radius: 8px;
+  -webkit-box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+  box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+}
+
+.button-randomDog {
+  width: 350px;
+  height: 80px;
+
+  cursor: pointer;
+
+  margin-left: 25%;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 22px;
+
+  background-color: $purple-dark;
+
+  color: $white-dark;
+
+  -webkit-box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+  box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.container-infoDog {
+  width: 700px;
+  height: 400px;
+
+  background-color: $white-dark;
+
+  border-radius: 8px;
+
+  -webkit-box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+  box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+}

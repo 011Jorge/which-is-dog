@@ -150,6 +150,57 @@
   }
 }
 
+.container-randomDog {
+  background-color: #b85b2d;
+}
+.container-randomDog h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #edeff0;
+}
+
+.container-dogData {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-imageDog {
+  width: 600px;
+  height: 700px;
+  background-color: #edeff0;
+  border-radius: 8px;
+  box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+}
+
+.button-randomDog {
+  width: 350px;
+  height: 80px;
+  cursor: pointer;
+  margin-left: 25%;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  background-color: #553662;
+  color: #edeff0;
+  box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+}
+.button-randomDog:hover {
+  opacity: 0.8;
+}
+.button-randomDog:active {
+  opacity: 0.5;
+}
+
+.container-infoDog {
+  width: 700px;
+  height: 400px;
+  background-color: #edeff0;
+  border-radius: 8px;
+  box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
+}
+
 .s-0 {
   margin: 0;
   padding: 0;
