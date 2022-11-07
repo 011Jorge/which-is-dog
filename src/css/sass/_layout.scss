@@ -228,15 +228,30 @@
   -moz-box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
   box-shadow: 8px 7px 28px 0px rgba(0, 0, 0, 0.53);
 
+  transition: 0.3s ease;
+
   &:hover {
-    opacity: 0.8;
+    opacity: 0.7;
   }
 
   &:active {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 
+.iconPlus {
+  animation: iconPlus 2s infinite reverse;
+
+  @keyframes iconPlus {
+    0% {
+      transform: rotateZ(360deg);
+    }
+
+    100% {
+      transform: rotateZ(0);
+    }
+  }
+}
 .container-infoDog {
   width: 700px;
   height: 400px;
