@@ -4,7 +4,7 @@
 
 > O projeto consiste em, renderizar diversas raças de cachorros trazendo diversas informações, como por exemplo; nome, temperamento, vida, altura e peso.
 
-### Ajustes e melhorias
+### Ajustes e melhorias.
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
